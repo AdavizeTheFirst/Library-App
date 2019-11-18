@@ -1,0 +1,80 @@
+/* if you're viewing this please ignore the shitty code, I just sketched it out to follow a node tutorial.. cheers */
+.flex {
+ display: flex;
+}
+body{
+ background-color: rgb(233, 229, 229);
+ flex-direction: column;
+}
+header {
+ padding: 20px 80px 20px 80px;
+ flex-direction: row;
+ justify-content: space-between;
+ color: white;
+ background-color: rgb(95, 13, 172);
+}
+
+header ul{
+ flex-direction: row;
+}
+header li{
+ margin-right: 30px;;
+}
+header a{
+ color: white;
+}
+#heading {
+ height: 25vh;
+ max-width: 100vw;
+ background-color: rgb(66, 8, 121);
+ padding: 50px 80px 0 80px;
+ flex-direction: row;
+ justify-content: space-between; 
+
+}
+#rectD{
+ border-radius: 5px;
+ width: 40%;
+ height: 130px;
+ background-color: rgb(153, 85, 216);
+}
+#heading h1{
+ font-size: 60px;
+ color: white;
+}
+.fill{
+ background-color: transparent;
+ width: 100%;
+}
+main{
+ margin: -35px 80px 20px 80px;
+ margin-left: 80px;
+ margin-right: 80px;
+ padding: 60px 30px 30px 30px;
+ width: 100%;
+ background-color: white;
+ align-self: center;
+}
+main ul{
+ flex-direction: column;
+}
+.bookItem{
+ flex-direction: row;
+ padding: 0 10px 20px 10px;
+ margin-bottom: 20px;
+}
+.bookItem image{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+}
+.bookDescription{
+ flex-direction: column;
+ margin-left: 40px;
+}
+.label{
+ background-color: rgb(105, 102, 102);
+ color: white;
+ width: fit-content;
+ padding: 3px;
+}
